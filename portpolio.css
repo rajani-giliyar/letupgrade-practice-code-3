@@ -1,0 +1,97 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+
+.navbar
+{
+    height:70px;
+    width:100%;
+    /* border: 2px solid black; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#ed1d1da1;
+}
+
+.porticon
+{
+    /* border: 2px solid red; */
+    padding:16px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+.resticon
+{
+    /* border: 2px solid green; */
+    text-transform: capitalize;
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+a
+{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover
+{
+    color: gray;
+}
+
+
+a:active
+{
+   color:aqua;
+}
+/* .home
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about
+{
+    font-weight: bold;
+}
+
+.projects
+{
+    font-weight: bold;
+} */
+
+.hireme
+{
+    text-transform: capitalize;
+    font-weight:bold;
+    font-size:15px;
+    border-radius: 20ch;
+    width: 120px;
+    padding:10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.hireme:hover
+{
+    background-color: gray;
+}
+
+.hireme:active
+{
+    background-color:gainsboro;
+}
+
